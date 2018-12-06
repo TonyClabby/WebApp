@@ -1,0 +1,29 @@
+ <% include ../partials/header %>
+ 
+ <!-- App sell home page row-->
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+  
+  <div id="sellHouse" class="grid-container">
+   <form>
+   <input type="text" id="name" placeholder="Submit your name", required, pattern="[a-z_]">
+   
+   <input type="text" id="email" placeholder="Submit your email", required, pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+   
+   <input type="text" id="addr" placeholder="Submit the properties address", required, pattern="[a-z0-9]+[a-z0-9]">
+   
+   <input type="text" id="note" placeholder="Submit showing times (use 24 hour time)", required, pattern="[0-9._%+-]">
+   
+   <button onclick="#">SUBMIT</button>
+   <form>
+   <div>
+  
+  </body>
+</html>
+ 
+ <% include ../partials/footer %>
